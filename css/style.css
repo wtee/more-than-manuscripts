@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    background-color: #d1f0e0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+p,
+li,
+aside {
+    font-size: calc(1rem + 3vh);
+}
+
+p,
+aside {
+    margin-left: 5%;
+}
+
+img {
+    border: 1px solid #000;
+    margin-left: 5%;
+}
+
+ul {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h1,
+h2,
+h3 {
+    margin:0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.big-head {
+    font-size: calc(1rem + 12vh);
+}
+
+.med-head {
+    font-size: calc(1rem + 6vh);
+}
+
+.min-head {
+    font-size: calc(1rem + 5vh);
+}
+
+.sub-head {
+    font-size: calc(1rem + 4vh);
+}
+
+.footnote {
+    margin-top: 2%;
+    font-size: calc(1rem + 1.5vh);
+    font-style: italic;
+}
+
+.center-txt {
+    text-align: center;
+    margin:0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Image sizes */
+
+.img-h-90 {
+    max-width: 90%;
+}
+
+.img-h-80 {
+    max-width: 80%;
+}
+
+.img-h-70 {
+    max-width: 70%;
+}
+
+.img-h-65 {
+    max-width: 65%;
+}
+
+.img-h-60 {
+    max-width: 60%;
+}
+
+.img-h-50 {
+    max-width: 50%;
+}
+
+.img-v-90 {
+    max-height: 90%;
+}
+
+.img-v-80 {
+    max-height: 80%;
+}
+
+.img-v-75 {
+    max-height: 75%;
+}
+
+.img-v-70 {
+    max-height: 70%;
+}
+
+.img-v-60 {
+    max-height: 60%;
+}
+
+.img-v-50 {
+    max-height: 50%;
+}
+
+
+.max-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.big-img-v {
+    max-height: 75%;
+    max-width: 100%;
+}
+
+.med-img-v {
+    max-height: 50%;
+    max-width: 100%;
+}
+
+.min-img-v {
+    max-height: 25%;
+    max-width: 100%;
+}
+
+.big-img-h {
+    max-height: 100%;
+    max-width: 80%;
+}
+
+.med-img-h {
+    max-height: 100%;
+    max-width: 50%;
+}
+
+.min-img-h {
+    max-height: 100%;
+    max-width: 25%;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-template-areas: "leads di scua pres"
+                         "md md wd stu"
+}
+.grid-leads {
+    grid-area: leads;
+}
+
+.grid-di {
+    grid-area: di;
+}
+
+.grid-scua {
+    grid-area: scua;
+}
+
+.grid-pres {
+    grid-area: pres;
+}
+
+.grid-md {
+    grid-area: md;
+}
+
+.grid-wd {
+    grid-area: wd;
+}
+
+.grid-stu {
+    grid-area: stu;
+}
+
+.sub-grid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2%;
+}
